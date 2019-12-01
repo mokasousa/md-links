@@ -1,0 +1,25 @@
+{
+  "name": "md-links",
+  "version": "1.0.0",
+  "description": "Library to get links and references in a markdown file",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "Markdown",
+    "CLI"
+  ],
+  "bin": {
+    "md-links": "./lib/cli.js"
+  },
+  "author": "Monica Sousa",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
